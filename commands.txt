@@ -4,3 +4,10 @@
 #   python grits_demo.py gt_doc1.json pred_doc1.json
 #   python grits_demo.py --batch
 #   python grits_demo.py --batch path/to/folder
+
+
+or for streamlit app
+streamlit run app.py 
+
+to install requirements
+pip install -r requirements.txt
