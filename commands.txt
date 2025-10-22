@@ -1,0 +1,6 @@
+# grits_demo.py
+# Modes:
+#   python grits_demo.py
+#   python grits_demo.py gt_doc1.json pred_doc1.json
+#   python grits_demo.py --batch
+#   python grits_demo.py --batch path/to/folder

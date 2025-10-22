@@ -1,0 +1,19 @@
+{
+  "page_id": "doc1_p0",
+  "table_id": "t1",
+  "n_rows": 3,
+  "n_cols": 3,
+  "cells": [
+    { "row_start": 1, "row_end": 1, "col_start": 1, "col_end": 1, "bbox": [0.10, 0.10, 0.30, 0.18], "text": "Type" },
+    { "row_start": 1, "row_end": 1, "col_start": 2, "col_end": 2, "bbox": [0.30, 0.10, 0.60, 0.18], "text": "Instrument" },
+    { "row_start": 1, "row_end": 1, "col_start": 3, "col_end": 3, "bbox": [0.60, 0.10, 0.90, 0.18], "text": "Number" },
+
+    { "row_start": 2, "row_end": 2, "col_start": 1, "col_end": 1, "bbox": [0.10, 0.18, 0.30, 0.26], "text": "Partial Payment" },
+    { "row_start": 2, "row_end": 2, "col_start": 2, "col_end": 2, "bbox": [0.30, 0.18, 0.60, 0.26], "text": "Payorder" },
+    { "row_start": 2, "row_end": 2, "col_start": 3, "col_end": 3, "bbox": [0.60, 0.18, 0.90, 0.26], "text": "12198881" },
+
+    { "row_start": 3, "row_end": 3, "col_start": 1, "col_end": 1, "bbox": [0.10, 0.26, 0.30, 0.34], "text": "Advance" },
+    { "row_start": 3, "row_end": 3, "col_start": 2, "col_end": 2, "bbox": [0.30, 0.26, 0.60, 0.34], "text": "Cheque" },
+    { "row_start": 3, "row_end": 3, "col_start": 3, "col_end": 3, "bbox": [0.60, 0.26, 0.90, 0.34], "text": "998877" }
+  ]
+}
