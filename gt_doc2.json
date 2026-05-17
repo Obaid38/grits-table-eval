@@ -1,0 +1,65 @@
+{
+  "page_id": "doc1_p0",
+  "table_id": "bank_statement_t1",
+  "n_rows": 8,
+  "n_cols": 7,
+  "cells": [
+    {"row_start":1,"row_end":1,"col_start":1,"col_end":1,"bbox":[0.05,0.08,0.15,0.14],"text":"Date"},
+    {"row_start":1,"row_end":1,"col_start":2,"col_end":2,"bbox":[0.15,0.08,0.35,0.14],"text":"Description"},
+    {"row_start":1,"row_end":1,"col_start":3,"col_end":3,"bbox":[0.35,0.08,0.50,0.14],"text":"Transaction Type"},
+    {"row_start":1,"row_end":1,"col_start":4,"col_end":4,"bbox":[0.50,0.08,0.65,0.14],"text":"Instrument No."},
+    {"row_start":1,"row_end":1,"col_start":5,"col_end":5,"bbox":[0.65,0.08,0.75,0.14],"text":"Debit (PKR)"},
+    {"row_start":1,"row_end":1,"col_start":6,"col_end":6,"bbox":[0.75,0.08,0.85,0.14],"text":"Credit (PKR)"},
+    {"row_start":1,"row_end":1,"col_start":7,"col_end":7,"bbox":[0.85,0.08,0.95,0.14],"text":"Balance (PKR)"},
+
+    {"row_start":2,"row_end":2,"col_start":1,"col_end":1,"bbox":[0.05,0.14,0.15,0.20],"text":"2025-10-01"},
+    {"row_start":2,"row_end":2,"col_start":2,"col_end":2,"bbox":[0.15,0.14,0.35,0.20],"text":"Opening Balance"},
+    {"row_start":2,"row_end":2,"col_start":3,"col_end":3,"bbox":[0.35,0.14,0.50,0.20],"text":"—"},
+    {"row_start":2,"row_end":2,"col_start":4,"col_end":4,"bbox":[0.50,0.14,0.65,0.20],"text":"—"},
+    {"row_start":2,"row_end":2,"col_start":5,"col_end":5,"bbox":[0.65,0.14,0.75,0.20],"text":"—"},
+    {"row_start":2,"row_end":2,"col_start":6,"col_end":6,"bbox":[0.75,0.14,0.85,0.20],"text":"500,000"},
+    {"row_start":2,"row_end":2,"col_start":7,"col_end":7,"bbox":[0.85,0.14,0.95,0.20],"text":"500,000"},
+
+    {"row_start":3,"row_end":3,"col_start":1,"col_end":1,"bbox":[0.05,0.20,0.15,0.26],"text":"2025-10-03"},
+    {"row_start":3,"row_end":3,"col_start":2,"col_end":2,"bbox":[0.15,0.20,0.35,0.26],"text":"ATM Withdrawal - City Branch"},
+    {"row_start":3,"row_end":3,"col_start":3,"col_end":3,"bbox":[0.35,0.20,0.50,0.26],"text":"Cash"},
+    {"row_start":3,"row_end":3,"col_start":4,"col_end":4,"bbox":[0.50,0.20,0.65,0.26],"text":"ATM-23109"},
+    {"row_start":3,"row_end":3,"col_start":5,"col_end":5,"bbox":[0.65,0.20,0.75,0.26],"text":"20,000"},
+    {"row_start":3,"row_end":3,"col_start":6,"col_end":6,"bbox":[0.75,0.20,0.85,0.26],"text":"—"},
+    {"row_start":3,"row_end":3,"col_start":7,"col_end":7,"bbox":[0.85,0.20,0.95,0.26],"text":"480,000"},
+
+    {"row_start":4,"row_end":4,"col_start":1,"col_end":1,"bbox":[0.05,0.26,0.15,0.32],"text":"2025-10-04"},
+    {"row_start":4,"row_end":4,"col_start":2,"col_end":2,"bbox":[0.15,0.26,0.35,0.32],"text":"Salary Credit - Apex Systems Ltd."},
+    {"row_start":4,"row_end":4,"col_start":3,"col_end":3,"bbox":[0.35,0.26,0.50,0.32],"text":"Transfer"},
+    {"row_start":4,"row_end":4,"col_start":4,"col_end":4,"bbox":[0.50,0.26,0.65,0.32],"text":"RTGS-55219"},
+    {"row_start":4,"row_end":4,"col_start":5,"col_end":5,"bbox":[0.65,0.26,0.75,0.32],"text":"—"},
+    {"row_start":4,"row_end":4,"col_start":6,"col_end":6,"bbox":[0.75,0.26,0.85,0.32],"text":"350,000"},
+    {"row_start":4,"row_end":4,"col_start":7,"col_end":7,"bbox":[0.85,0.26,0.95,0.32],"text":"830,000"},
+
+    {"row_start":5,"row_end":5,"col_start":1,"col_end":1,"bbox":[0.05,0.32,0.15,0.38],"text":"2025-10-07"},
+    {"row_start":5,"row_end":5,"col_start":2,"col_end":2,"bbox":[0.15,0.32,0.35,0.38],"text":"Online Transfer - Rent Payment"},
+    {"row_start":5,"row_end":5,"col_start":3,"col_end":3,"bbox":[0.35,0.32,0.50,0.38],"text":"Online Transfer"},
+    {"row_start":5,"row_end":5,"col_start":4,"col_end":4,"bbox":[0.50,0.32,0.65,0.38],"text":"NEFT-88912"},
+    {"row_start":5,"row_end":5,"col_start":5,"col_end":5,"bbox":[0.65,0.32,0.75,0.38],"text":"100,000"},
+    {"row_start":5,"row_end":5,"col_start":6,"col_end":6,"bbox":[0.75,0.32,0.85,0.38],"text":"—"},
+    {"row_start":5,"row_end":5,"col_start":7,"col_end":7,"bbox":[0.85,0.32,0.95,0.38],"text":"730,000"},
+
+    {"row_start":6,"row_end":6,"col_start":1,"col_end":1,"bbox":[0.05,0.38,0.15,0.44],"text":"2025-10-09"},
+    {"row_start":6,"row_end":6,"col_start":2,"col_end":2,"bbox":[0.15,0.38,0.35,0.44],"text":"Mobile Top-up - Jazz"},
+    {"row_start":6,"row_end":6,"col_start":3,"col_end":3,"bbox":[0.35,0.38,0.50,0.44],"text":"Debit Card"},
+    {"row_start":6,"row_end":6,"col_start":4,"col_end":4,"bbox":[0.50,0.38,0.65,0.44],"text":"POS-34561"},
+    {"row_start":6,"row_end":6,"col_start":5,"col_end":5,"bbox":[0.65,0.38,0.75,0.44],"text":"1,000"},
+    {"row_start":6,"row_end":6,"col_start":6,"col_end":6,"bbox":[0.75,0.38,0.85,0.44],"text":"—"},
+    {"row_start":6,"row_end":6,"col_start":7,"col_end":7,"bbox":[0.85,0.38,0.95,0.44],"text":"729,000"},
+
+    {"row_start":7,"row_end":7,"col_start":1,"col_end":1,"bbox":[0.05,0.44,0.15,0.50],"text":"2025-10-10"},
+    {"row_start":7,"row_end":7,"col_start":2,"col_end":2,"bbox":[0.15,0.44,0.35,0.50],"text":"Utility Bill Payment - City Electric Co."},
+    {"row_start":7,"row_end":7,"col_start":3,"col_end":3,"bbox":[0.35,0.44,0.50,0.50],"text":"Online Payment"},
+    {"row_start":7,"row_end":7,"col_start":4,"col_end":4,"bbox":[0.50,0.44,0.65,0.50],"text":"BILL-44021"},
+    {"row_start":7,"row_end":7,"col_start":5,"col_end":5,"bbox":[0.65,0.44,0.75,0.50],"text":"15,000"},
+    {"row_start":7,"row_end":7,"col_start":6,"col_end":6,"bbox":[0.75,0.44,0.85,0.50],"text":"—"},
+    {"row_start":7,"row_end":7,"col_start":7,"col_end":7,"bbox":[0.85,0.44,0.95,0.50],"text":"714,000"},
+
+    {"row_start":8,"row_end":8,"col_start":1,"col_end":7,"bbox":[0.05,0.50,0.95,0.56],"text":"Closing Balance as of 10-Oct-2025: PKR 714,000"}
+  ]
+}

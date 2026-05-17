@@ -1,5 +1,57 @@
+# Python
 *.pyc
+*.pyo
 __pycache__/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
 .env
+venv/
+.venv/
+env/
+
+# IDE / editor
 .vscode/
 .idea/
+
+# Claude Code machine config
+.claude/
+
+# Images and screenshots
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Generated data outputs
+grits_summary.csv
+*.log
+*.db
+*.sqlite
+
+# Tabular data (not source-controlled)
+*.csv
+*.xlsx
+*.xls
+
+# Model weights and binary ML artifacts
+*.pkl
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.h5
+*.safetensors
+*.onnx
+*.tflite
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
