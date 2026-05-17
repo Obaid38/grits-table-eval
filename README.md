@@ -8,7 +8,7 @@ This project implements the [GriTS metric](https://arxiv.org/abs/2203.12555) (Gr
 
 ---
 
-## 🔍 Why Tables Break OCR
+## Why Tables Break OCR
 
 Tables in scanned documents are structurally adversarial for most extraction pipelines:
 
@@ -21,7 +21,7 @@ The result is that a pipeline can achieve high character-level accuracy while th
 
 ---
 
-## 📐 The Three Scoring Heads
+## The Three Scoring Heads
 
 **GriTS_Top — Topology**
 
@@ -48,7 +48,7 @@ The result is that a pipeline can achieve high character-level accuracy while th
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 grits_demo.py
@@ -83,7 +83,7 @@ No deep learning, no GPU, no model weights. The scorer is pure Python and can be
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Tool |
 |---|---|
@@ -95,7 +95,7 @@ No deep learning, no GPU, no model weights. The scorer is pure Python and can be
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 grits-table-eval/
@@ -111,7 +111,7 @@ grits-table-eval/
 
 ---
 
-## ⚡ Setup
+## Setup
 
 ```bash
 git clone https://github.com/Obaid38/grits-table-eval.git
@@ -123,7 +123,7 @@ Python 3.9+. No virtual environment strictly required for a quick run.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 **Default — scores `gt_doc1.json` vs `pred_doc1.json` in the working directory:**
 
@@ -156,7 +156,7 @@ Upload your GT and Pred JSONs in the sidebar, or let the app fall back to the lo
 
 ---
 
-## 📋 JSON Schema
+## JSON Schema
 
 Each table — ground truth or prediction — is a single JSON object:
 
@@ -188,7 +188,7 @@ Notes:
 
 ---
 
-## 🧪 Demo Data
+## Demo Data
 
 **Doc1 — Payment table (3×3):**
 A simple header + two-row table with payment type, instrument, and reference number.
@@ -207,7 +207,7 @@ This example shows all three heads degrading simultaneously — the failure mode
 
 ---
 
-## 📚 Research Background
+## Research Background
 
 GriTS was introduced in [*GriTS: Grid Table Similarity Metric for Table Structure Recognition*](https://arxiv.org/abs/2203.12555) (Smock, Pesala, Abraham — Landing AI, 2022), developed alongside the [TableTransformer](https://github.com/microsoft/table-transformer) model.
 
@@ -217,7 +217,7 @@ The three-head design separates structural, spatial, and textual correctness so 
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Location scoring uses a 150×150 sampling grid rather than exact polygon intersection. Accurate for rectangular bboxes; increase the `num_samples` parameter in `grits_demo.py` for higher precision.
 - One table object per JSON file. Multi-table documents require one file per table.
@@ -225,6 +225,6 @@ The three-head design separates structural, spatial, and textual correctness so 
 
 ---
 
-## 📄 License
+## License
 
 MIT
